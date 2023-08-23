@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+ 
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Personal Website</title>
+    <style>
+      body{
+        background-color: rgba(162, 179, 201, 0.667);
+      }
+      img{
+        float: right;
+        margin-right: 20px;
+      }
+
+      fieldset{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-bottom: 0%;
+     
+      }
+
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+      
+      .menu-toggle {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        font-size: 30px;
+        cursor: pointer;
+        z-index: 1;
+      }
+      
+      .menu-toggle:hover {
+        color: #aaa;
+      }
+      
+      .menu {
+        position: fixed;
+        top: 0;
+        left: -250px;
+        width: 250px;
+        height: 100%;
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        box-sizing: border-box;
+        transition: all 0.3s ease-in-out;
+        z-index: 1;
+      }
+      
+      .menu.show {
+        left: 0;
+      }
+      
+      .menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .menu ul li {
+        margin-bottom: 10px;
+      }
+      
+      .menu ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        display: block;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .menu ul li a:hover {
+        color: #aaa;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+    <section>
+      <div class="menu-toggle">☰</div>
+ 
+   
+    <script>
+      const menuToggle = document.querySelector('.menu-toggle');
+      const menu = document.querySelector('.menu');
+      
+      menuToggle.addEventListener('click', () => {
+        menu.classList.toggle('show');
+      });
+    </script>
+
+    
+      
+  
+
+    
+      
+      
+     
+
+        <h1>PERSONAL INFORMATION</h1>
+        <img src="sitephoto.jpg" alt="habiba photo" width="150px">
+        <ul>
+          <li>Name: HABIBA SULEIMAN SEIF </li>
+          <li>Email: habibasuleiman998@gmail.com</li>
+          <li>Phone: 0676953096</li>
+          <li>Address: Zanzibar urban </li>
+        </ul>
+      </section>
+      <section>
+        <h2>EDUCATIONAL BACKGROUND</h2>
+        <ul>
+          <li>|Certificate of advanced secondary Educational</li>
+          <li>certifictae of secondary education</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>WORKING EXPIRIENCE</h2>
+        <ul>
+          <li>IT SUPPORT, PBZ BANK(2022)</li>
+          <li></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>SKILLS</h2>
+        <ul>
+          <li>System design and analysis</li>
+          <li>SQL</li>
+          <li>Networking</li>
+          <li>sotware development</li>
+          <li>web development</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>PROFFESSIONAL COURSE</h2>
+        <ul>
+          <li>Networking apllication</li>
+         
+        </ul>
+      </section>
+
+      <section>
+        <h2>PROJECTS</h2>
+        <ul>
+          <li>
+            Project Title: Ministry of Finance System
+            <br>
+            Technology Used: flutter ,springboot 
+            <br>
+            Client: 
+            <br>
+            Role: Assistant Project Manager
+            <br>
+            Date of Completion:Oct 2023
+          </li>
+         
+        </ul>
+      </section>
+
+      <section>
+        <h2>DEPENDENTS</h2>
+        <ul>
+          <li>Parents</li>
+         
+        </ul></section></fieldset>
+</body></html>
